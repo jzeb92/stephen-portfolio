@@ -201,3 +201,4 @@ Personal portfolio site for Stephen Carlick. Content © Stephen Carlick 2025.
 
 Built with care. No frameworks, no bloat, just clean code.
 
+
