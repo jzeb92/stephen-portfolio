@@ -349,6 +349,18 @@ ul, ol {
   margin-bottom: var(--space-xl);
 }
 
+.hero-positioning a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 2px;
+  transition: text-decoration-color var(--duration-fast) var(--ease-out);
+}
+
+.hero-positioning a:hover {
+  text-decoration-color: var(--color-text);
+}
+
 .hero-links {
   display: flex;
   flex-wrap: wrap;

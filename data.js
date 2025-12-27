@@ -10,8 +10,8 @@ const SITE_DATA = {
   name: "Stephen Carlick",
   title: "Copywriter / Editor / Content Lead",
   
-  // Positioning statement (hero)
-  positioning: "I'm Stephen — an editor and writer who lives at the intersection of culture, community, and commerce. I've spent the last decade shaping editorial voice across owned channels: running daily publishing at Exclaim!, building performance-minded content for Penguin Random House, and writing longform interviews and features for titles like GQ. My strength is making audiences feel seen — translating internet language and cultural signals into sharp, human copy that earns attention (and then converts it).",
+  // Positioning statement (hero) - supports HTML for links
+  positioning: "I'm Stephen — an editor and writer who lives at the intersection of culture, community, and commerce. I've spent the last decade shaping editorial voice across owned channels: running daily publishing at <a href=\"https://exclaim.ca/writers/stephen_carlick\" target=\"_blank\" rel=\"noopener noreferrer\">Exclaim!</a>, building performance-minded content for <a href=\"https://www.penguin.co.uk/writers/stephen-carlick\" target=\"_blank\" rel=\"noopener noreferrer\">Penguin Random House</a>, and writing longform interviews and features for titles like GQ. My strength is making audiences feel seen — translating internet language and cultural signals into sharp, human copy that earns attention (and then converts it).",
   
   // Contact
   email: "stephencarlick@gmail.com",

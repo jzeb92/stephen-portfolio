@@ -63,7 +63,7 @@
     }
 
     // Hero content
-    document.getElementById('heroPositioning').textContent = SITE_DATA.positioning;
+    document.getElementById('heroPositioning').innerHTML = SITE_DATA.positioning;
     document.getElementById('linkedinLink').href = SITE_DATA.linkedin;
     
     // Hero image
