@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stephen Carlick — Copywriter, Editor, Content Lead. Sharp, human copy that earns attention and converts.">
+  <meta name="theme-color" content="#ffffff">
+  
+  <title>Stephen Carlick — Copywriter / Editor / Content Lead</title>
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Fonts: Instrument Serif for headings, Satoshi/DM Sans alternative -->
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✍️</text></svg>">
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <!-- Section indicator / mini-nav -->
+  <nav class="section-nav" aria-label="Page sections">
+    <ul>
+      <li><a href="#work" class="nav-dot" data-section="work"><span>Work</span></a></li>
+      <li><a href="#skills" class="nav-dot" data-section="skills"><span>Skills</span></a></li>
+      <li><a href="#about" class="nav-dot" data-section="about"><span>About</span></a></li>
+      <li><a href="#testimonials" class="nav-dot" data-section="testimonials"><span>Testimonials</span></a></li>
+      <li><a href="#contact" class="nav-dot" data-section="contact"><span>Contact</span></a></li>
+    </ul>
+  </nav>
+  
+  <!-- Back to top button -->
+  <button class="back-to-top" aria-label="Back to top" hidden>
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M10 16V4M4 10l6-6 6 6"/>
+    </svg>
+  </button>
+  
+  <main id="main">
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-name">Stephen Carlick</h1>
+          <p class="hero-title">Copywriter / Editor / Content Lead</p>
+          
+          <p class="hero-positioning" id="heroPositioning">
+            <!-- Populated by JS from data.js -->
+          </p>
+          
+        <div class="hero-links">
+          <a href="#contact" class="btn btn-primary magnetic" data-magnetic>
+            <span>Email me</span>
+          </a>
+          <a href="#" class="btn btn-secondary" id="linkedinLink">LinkedIn</a>
+          <a href="#" class="btn btn-secondary" id="pdfLink">Download PDF</a>
+        </div>
+      </div>
+        
+        <!-- Asymmetric hero image -->
+        <div class="hero-image">
+          <div class="hero-image-inner">
+            <img src="/images/hero-editorial.jpg" alt="Editorial work samples" id="heroImage">
+            <!-- Decorative accent -->
+            <div class="hero-image-accent"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Selected Work Section -->
+    <section class="section section-work" id="work">
+      <div class="section-header">
+        <h2>Selected Work</h2>
+        <p class="section-subtitle">A decade across editorial, brand, and UX</p>
+      </div>
+      
+      <div class="projects" id="projectsContainer">
+        <!-- Populated by JS from data.js -->
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="section section-skills" id="skills">
+      <div class="section-header">
+        <h2>What I'm Good At</h2>
+      </div>
+      
+      <ul class="skills-list" id="skillsList">
+        <!-- Populated by JS -->
+      </ul>
+    </section>
+    
+    <!-- About Section -->
+    <section class="section section-about" id="about">
+      <div class="section-header">
+        <h2>About</h2>
+      </div>
+      
+      <div class="about-content">
+        <p class="about-paragraph" id="aboutParagraph">
+          <!-- Populated by JS -->
+        </p>
+        
+        <div class="ways-i-work">
+          <h3>How I work</h3>
+          <ul id="waysIWorkList">
+            <!-- Populated by JS -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section section-testimonials" id="testimonials">
+      <div class="section-header">
+        <h2>Kind Words</h2>
+      </div>
+      
+      <div class="testimonials-grid" id="testimonialsContainer">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section section-contact" id="contact">
+      <div class="contact-content">
+        <h2>Let's work together</h2>
+        <p>I'm currently open to freelance projects and contract roles in editorial, brand, and content.</p>
+        
+        <div class="contact-links">
+          <a href="mailto:stephencarlick@gmail.com" class="contact-email magnetic" data-magnetic>
+            <span id="contactEmail">stephencarlick@gmail.com</span>
+          </a>
+          <p class="contact-phone" id="contactPhone"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="currentYear"></span> Stephen Carlick</p>
+  </footer>
+  
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" aria-label="Close lightbox">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <button class="lightbox-prev" aria-label="Previous image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+    </button>
+    <button class="lightbox-next" aria-label="Next image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M9 18l6-6-6-6"/>
+      </svg>
+    </button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImage">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <div class="lightbox-counter">
+      <span id="lightboxCurrent">1</span> / <span id="lightboxTotal">1</span>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
