@@ -16,8 +16,8 @@ const SITE_DATA = {
   // Contact
   email: "stephencarlick@gmail.com",
   phone: "+44 7500 657389",
-  linkedin: "https://linkedin.com/in/stephencarlick", // Update with actual URL
-  pdfDownload: "/stephen-carlick-portfolio.pdf", // Update with actual PDF path
+  linkedin: "https://uk.linkedin.com/in/stephen-carlick-baab8547",
+  pdfDownload: null, // Disabled
   
   // Brands/outlets for logo strip
   brands: [

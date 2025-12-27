@@ -65,7 +65,6 @@
     // Hero content
     document.getElementById('heroPositioning').textContent = SITE_DATA.positioning;
     document.getElementById('linkedinLink').href = SITE_DATA.linkedin;
-    document.getElementById('pdfLink').href = SITE_DATA.pdfDownload;
     
     // Hero image
     const heroImageContainer = document.querySelector('.hero-image');
